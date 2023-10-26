@@ -43,6 +43,7 @@ body{
   justify-content: center;
   align-items: center;
   margin: 0.5px;
+  background-color: rgb(219, 219, 219);
   
 }
 .button-box button:hover {
@@ -56,6 +57,7 @@ body{
 .button-box-num button{
   width: 30%; 
   border-radius: unset;
+  background-color: white;
  
 }
 .button-box-sum{
