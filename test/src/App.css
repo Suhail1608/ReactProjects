@@ -1,0 +1,72 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.calc{
+  width: 300px;
+  
+  background-color: blueviolet;
+}
+.display-box{
+  display: flex;
+
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.display-box input{
+  border: none;
+  text-align: right;
+  font-size: 35px;
+  height: 40px;
+  padding: 5px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.button-box{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(185, 185, 185);
+}
+.button-box button{
+  border-radius: unset;
+  display: flex;
+  width: 23%;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5px;
+  
+}
+.button-box button:hover {
+  background-color: rgb(207, 207, 207);
+}
+.button-box-num{
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-box-num button{
+  width: 30%; 
+  border-radius: unset;
+ 
+}
+.button-box-sum{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.button-box-sum button{
+  background-color: rgb(255, 81, 0);
+}
+.button-box-sum button:hover {
+  background-color: rgb(231, 46, 0);
+}
